@@ -1,0 +1,53 @@
+# Ignore cached datasets, models, and tokenized data
+*.cache/
+*.pyc
+*.pyo
+__pycache__/
+.cache/
+.cache/huggingface/
+datasets/
+data/
+output/
+models/
+*.parquet
+*.csv
+*.jsonl
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.weights
+*.tar.gz
+*.zip
+*.tar
+
+# Ignore virtual environment files
+venv/
+.env/
+.envrc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore log files and temp files
+*.log
+*.temp
+*.tmp
+*.swp
+
+# Ignore large dataset files
+*.mp4
+*.mp3
+*.wav
+*.flac
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Ignore large datasets
+data/
+datasets/
